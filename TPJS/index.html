@@ -102,6 +102,9 @@
                 dest.appendChild(copy);
             })
         }
+        
+        
+        
         function update(index ) {
             var dest = document.querySelector('.users .row').children 
             var card = dest[index].querySelector('.card')
@@ -121,6 +124,8 @@
             card.style.display = ''
         }
 
+       
+       
         function Edit(index) {
 
             var dest = document.querySelector('.users .row').children 
@@ -141,6 +146,9 @@
             var card = dest[index].querySelector('.card')
             card.style.display = ''
         }
+
+
+
         function showTable()
         {
             var TabUsers = document.querySelector('.TabUsers')
@@ -163,8 +171,11 @@
             
             TabUsers.innerHTML = table 
         }
+        
+        
         showGrid();
         showTable();
+        
         function showUpdates() {
             var btn = document.querySelector('.btn-success')
             var TabUsers = document.querySelector('.TabUsers')
